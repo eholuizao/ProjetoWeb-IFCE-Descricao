@@ -5,5 +5,5 @@ Repositório do site de descrição temática do projeto a ser desenvolvido na d
 ## Estado do site de descrição
 
 - [x] HTML
-- [ ] CSS
+- [x] CSS
 - [ ] Javascript
