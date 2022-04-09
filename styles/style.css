@@ -75,7 +75,7 @@ header .site-title {
 }
 
 header > .cta-container {
-    width: 90%;
+    width: 100%;
     display: flex;
 }
 
@@ -98,7 +98,7 @@ header .cta {
 .cta .button {
     margin: auto;
     margin-top: 3rem;
-    width: 90%;
+    width: 20rem;
     height: 6rem;
     text-align: center;
     line-height: 5rem;
@@ -280,7 +280,7 @@ th, td{
     }
 
     .objetivos > .content > .func {
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         width: auto;
         padding: 3rem 0;
