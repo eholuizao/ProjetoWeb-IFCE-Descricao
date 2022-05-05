@@ -6,30 +6,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Prazos</title>
         <link rel="stylesheet" href="styles/style.css">
+        <style>
+            .second-header {
+                position: inherit;
+                opacity: 1;
+                background-color: #1a1a1a;
+                color: white;
+            }
+
+            .second-header > nav > ul > li {
+                border-bottom: 2px solid #1a1a1a;
+            }
+
+            .second-header > nav > ul > li:hover {
+                border-bottom: 2px solid white;
+            }
+
+            .second-header > nav > ul > li > a {
+                color: white;
+            }
+        </style>
     </head>
     
     <body>
         <header>
-            <h1>Descrição do Projeto Temático</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="funcionalidades.html">Funcionalidades</a></li>
-                    <li><a href="prazos.html">Cronograma</a></li>
-                    <li><a href="validacao.html">Validação</a></li>
-                </ul>
-            </nav>
-            <hr>
+            <div class="second-header">
+                <h1>Chroma<span>tiz</span></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="prazos.html">Cronograma</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         
         <main>
             <table>
                 <caption>Cronograma do projeto</caption>
-                <colgroup>
-                    <col id="col1">
-                    <col id="col2">
-                    <col id="col3">
-                </colgroup>
                 <thead>
                     <tr>
                         <th>Linguagens</th>
@@ -69,7 +83,6 @@
         </main>
 
         <footer>
-            <hr>
             <p>&copy; Luiz Gabriel - IFCE - 2022</p>
         </footer>
     </body>
